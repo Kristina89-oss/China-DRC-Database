@@ -1,0 +1,30 @@
+{
+  "description": "The 'other China' in Congo: hundreds of small Chinese gold operators in the east - a dimension absent from the original source documents",
+  "verification_status": "confirmed by multiple sources (Reuters/AFP via ADF, VOA, AP, IFRI, Business & Human Rights Centre)",
+  "key_thesis": "The original materials describe China in the DRC only as organized state corporations in Katanga - orderly, large, under contract. But a fundamentally different Chinese layer exists in the east: hundreds of small and mid-sized companies mining gold outside the law. This is not one strategy but two unrelated ones - and the second is steadily undermining the legitimacy of the first.",
+  "scale": {
+    "companies_in_south_kivu": "per the governor, over 147 Chinese companies operating illegally; in June 2024, 547 companies were identified as operating illegally; separate publications cite an estimate of 'over 450 illegal mines, mostly under Chinese management'",
+    "output": "according to South Kivu governor Jean-Jacques Purusi, such companies each mine at least 100 kg of gold per month",
+    "workaround_scheme": "DRC's mining code bars foreigners from artisanal mining; Chinese companies form 'partnerships' with local cooperatives and operate through them, without declaring profits or paying taxes",
+    "technical_edge": "mechanized excavators and dredges versus local artisanal miners' picks and shovels"
+  },
+  "conflict_timeline": [
+    {"date": "2021-08", "event": "the South Kivu governor suspends 9 Chinese companies in Mwenga; China's MFA (Wu Peng) publicly orders companies from Zhejiang and Jiangsu to shut down and leave the province"},
+    {"date": "2024-07", "event": "Governor Purusi suspends ALL mining activity in the province, giving 72 hours to vacate sites; instead of the 117 illegal companies invited to formalize, 540 showed up"},
+    {"date": "2024-12", "event": "17 Chinese nationals arrested at a mine in Karhembo; 14 were released and returned to China despite $10m in unpaid taxes and fines"},
+    {"date": "2025-01-04", "event": "three Chinese nationals arrested with 10 gold bars and $400,000 in cash"},
+    {"date": "2025-01-14", "event": "PRECEDENT: a Bukavu court sentences three men to 7 years in prison and a $600,000 fine - the DRC's first-ever conviction of foreign mineral brokers"},
+    {"date": "2025-01-08", "event": "mass protests in Bukavu after an earlier-detained group of Chinese nationals was released"},
+    {"date": "2025-02", "event": "the DRC Ministry of Justice declares Masisi (North Kivu) and Kalehe (South Kivu) 'red zones' with a 6-month mining and trading ban"},
+    {"date": "2025-11", "event": "a Chinese company reports M23 forces looted ~$70m in gold in South Kivu, declares force majeure, prepares lawsuits"},
+    {"date": "2026-05", "event": "a new three-month mining suspension in Mwenga and Shabunda"},
+    {"date": "2026-05-29", "event": "DRC and China sign a police-cooperation agreement against mining fraud and cybercrime"}
+  ],
+  "collateral_damage": {
+    "smuggling": "per Finance Minister Nicolas Kazadi (2023), the DRC loses roughly $1bn a year to minerals smuggled into Rwanda alone",
+    "environment": "one South Kivu site that began operating in 2019 near Kitumba had lost about 82 hectares of forest cover by June 2023 (Berggorilla & Regenwald)",
+    "militarization": "IFRI documents militarization of mining sites and violence against civilians, including complicity by soldiers",
+    "chinese_casualties": "a militia attack on a gold mine in Ituri (2024) killed six Chinese miners and two Congolese soldiers"
+  },
+  "why_it_matters": "This layer, not Sicomines, is what shapes how ordinary Congolese in the east perceive China. Beijing is publicly distancing itself - its own foreign ministry ordered companies to leave, and in 2026 it moved to police cooperation with Kinshasa. In effect, the Chinese state is paying a reputational price for actors it does not control."
+}

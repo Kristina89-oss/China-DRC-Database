@@ -1,0 +1,112 @@
+{
+  "description": "Key Chinese (and linked) mining assets in the DRC",
+  "verification_status": "ownership structure confirmed; production figures are a 2022-2023 snapshot from corporate reporting, with current 2025 figures given separately for CMOC",
+  "projects": [
+    {
+      "name": "Tenke Fungurume (TFM)",
+      "owners": [
+        {"company": "CMOC Group (China)", "share_percent": 80},
+        {"company": "Gecamines (DRC, state)", "share_percent": 20}
+      ],
+      "minerals": ["copper", "cobalt"],
+      "location": "Lualaba, 180 km from Lubumbashi",
+      "area_sqkm": 1600,
+      "production_2022_23_kt": {"copper": 280.3, "cobalt": 21.6},
+      "investment": {
+        "buyout_2016_2019_busd": 3.79,
+        "buyout_details": "CMOC bought 56% (via TFHL) from Freeport-McMoRan for $2.65bn cash (Nov 2016, deal announced May 2016); Lundin/BHR Partners sold their 24% for $1.14bn; by 2019 CMOC had consolidated 80%",
+        "expansion_2021_busd": 2.51
+      },
+      "disputes": "2022: DRC blocked exports for nearly a year over a royalty dispute; April 2023 - CMOC paid Gecamines $800m in compensation plus $2bn in dividends over 10 years",
+      "sources": ["Freeport-McMoRan SEC filings (8-K, 2016)", "Wikiwand CMOC Group", "CSIS 2025-03-25", "Mining.com various", "en.cmoc.com"]
+    },
+    {
+      "name": "Kisanfu (KFM)",
+      "owners": [
+        {"company": "CMOC Group (China)", "share_percent": 71.25},
+        {"company": "CATL (via subsidiary, China)", "share_percent": 23.75},
+        {"company": "DRC (state)", "share_percent": 5}
+      ],
+      "minerals": ["copper", "cobalt"],
+      "location": "Lualaba, 33 km from TFM",
+      "production_2022_23_kt": {"copper_phase1": 100, "cobalt_phase1": 30},
+      "investment": {
+        "purchase_from_freeport_2020_musd": 550,
+        "catl_stake_purchase_2021_musd": 137.5,
+        "phase_1_busd": 1.826,
+        "phase_2_busd": "1.08-1.084 (announced Oct 2025, completion 2027)"
+      },
+      "2028_plan": "CMOC targets a combined 1 million tonnes of copper/year across its DRC assets by 2028",
+      "sources": ["Wikiwand CMOC Group", "Bloomberg 2025-10-24", "Ecofin Agency 2025-10-29", "Copperbelt Katanga Mining 2025-10-26"]
+    },
+    {
+      "name": "Deziwa (Somidez JV)",
+      "owners": [
+        {"company": "CNMC (China, state)", "share_percent": 51},
+        {"company": "Gecamines (DRC, state)", "share_percent": 49}
+      ],
+      "minerals": ["copper", "cobalt"],
+      "location": "near Kolwezi, Lualaba",
+      "production_2022_23_kt": {"copper": 80, "cobalt": 22},
+      "investment_musd": 800,
+      "launched": 2019
+    },
+    {
+      "name": "Kambove",
+      "owners": [
+        {"company": "CNMC (China, state)", "share_percent": 55},
+        {"company": "Gecamines (DRC, state)", "share_percent": 45}
+      ],
+      "minerals": ["copper"],
+      "location": "Haut-Katanga",
+      "production_2022_23_kt": {"copper": 35, "cobalt": "not separately published"},
+      "investment_musd": 75,
+      "launched": 2020
+    },
+    {
+      "name": "Pumpi",
+      "owners": [
+        {"company": "Wanbao Mining (Norinco subsidiary, China)", "share_percent": 75},
+        {"company": "Managem (Morocco)", "share_percent": 20},
+        {"company": "DRC (state)", "share_percent": 5}
+      ],
+      "minerals": ["copper", "cobalt"],
+      "location": "Lualaba",
+      "area_sqkm": 25.6,
+      "production_2022_23_kt": {"copper": 40, "cobalt": 5},
+      "investment_musd": 560,
+      "note": "parent company Norinco also tried to buy Chemaf's distressed assets (Etoile, Mutoshi) for $1.4bn via Norin Mining in 2024 - the deal was later taken over by US-based Virtus Minerals (April 2026, see us_counterstrategy.json)"
+    },
+    {
+      "name": "Manono (Manono Lithium SAS site, NE portion of the deposit)",
+      "owners": [
+        {"company": "Zijin Mining (via Jinxiang Lithium, China)", "share_percent": 61},
+        {"company": "Cominiere (DRC, state)", "share_percent": 39}
+      ],
+      "minerals": ["lithium"],
+      "status": "first production announced for June 2026; phase-1 investment around $1bn",
+      "legal_dispute": "see us_counterstrategy.json - competing claim by AVZ Minerals (Australia), ICSID arbitration ongoing"
+    },
+    {
+      "name": "CMOC combined DRC totals - current 2025 figures",
+      "owners": "TFM (80%) + KFM (71.25%)",
+      "production_2025_kt": {"copper": 741.1, "cobalt": 117.5},
+      "revenue_2025_bcny": 61.3,
+      "revenue_growth_yoy_percent": 21.15,
+      "source": "en.cmoc.com/html/Business/Congo-Cu-Co/ (CMOC official page)"
+    }
+  ],
+  "metallurgy": {
+    "name": "Lualaba Copper Smelter (LCS)",
+    "owners": [
+      {"company": "CNMC", "share_percent": 60},
+      {"company": "Yunnan Copper", "share_percent": 40}
+    ],
+    "launched": "early 2020",
+    "investment_musd": "~120 (840 million yuan)",
+    "capacity": "tolling of up to 150,000 t/year of Kamoa-Kakula concentrate (10-year contract with Ivanhoe Mines)",
+    "tax_break": "68.29% profit-tax exemption for 5 years from July 2021",
+    "offtakers": ["CITIC Metal", "Zijin Mining"],
+    "verification_status": "not independently re-verified this round - carried over from the user's original source document"
+  }
+}

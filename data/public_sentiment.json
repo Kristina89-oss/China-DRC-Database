@@ -1,0 +1,149 @@
+{
+  "description": "What Congolese people themselves say about China and Chinese companies - compiled from local news comment threads, civil-society statements, journalist-gathered testimony, and continent-wide polling. This is qualitative/anecdotal material, methodologically different from the rest of this database.",
+  "methodology_note": "A live, organic 'forum/chat' corpus specific to this topic (e.g. active Reddit threads) largely does not exist in searchable form - r/DRCongo and similar spaces have almost no discussion of Chinese mining specifically. What does exist, and is compiled here, is: (1) named on-the-record quotes from residents gathered by journalists and NGOs (Mongabay, RAID, VOA, Actualite.cd, DeskEco), which is the closest available proxy for grassroots opinion; (2) formal statements from Congolese civil-society coalitions who explicitly claim to represent public sentiment (CNPAV, AFREWATCH, provincial civil-society bodies); (3) continent-wide Afrobarometer polling, which is methodologically rigorous but not DRC-specific in most published breakdowns; (4) public social-media exchanges between officials. Direct quotes below are kept short and are individually sourced; paraphrases are marked as such.",
+  "verification_status": "each item is an individual, named, on-the-record statement or a cited organizational position - treat as testimony/opinion, not as verified fact about events",
+
+  "grievance_testimonies": [
+    {
+      "name": "Pierre",
+      "location": "Noa village, Congolese copper-cobalt belt",
+      "context": "resident living near industrial cobalt mines (Tenke Fungurume/CMOC, Metalkol/ERG, COMMUS/Zijin, KCC and MUMI/Glencore all operate in the belt)",
+      "quote": "We live in an environment that brings us more problems than solutions.",
+      "theme": "pollution / environment",
+      "source": "RAID, 'Beneath the Green' report, 2024"
+    },
+    {
+      "name": "Edmond Chansa",
+      "location": "Gecamines neighborhood, Kolwezi",
+      "context": "60-year-old resident displaced when Zijin's COMMUS took over a former Gecamines quarry",
+      "paraphrase": "regrets the social conditions of his new, relocated housing compared to what he had before",
+      "theme": "displacement",
+      "source": "Mongabay, 'Kolwezi: un filon de cobalt fait déplacer plusieurs milliers d'habitants', 2023"
+    },
+    {
+      "name": "Adelard Makonga",
+      "location": "Tshabula village, Kolwezi",
+      "context": "resident who refused COMMUS's cash-compensation relocation offer",
+      "paraphrase": "held out for what he called a proper, legally binding relocation rather than a cash payout, raising the stakes in his dispute with the Chinese mining company",
+      "theme": "displacement / compensation",
+      "source": "Mongabay, 2023"
+    },
+    {
+      "name": "Jean Marc Kananga Muleba",
+      "location": "Kolwezi",
+      "context": "resident whose home was slated for demolition for cobalt/copper expansion",
+      "paraphrase": "says finding a replacement home with electricity and running water is unimaginable on the roughly $7,500 compensation Chinese-run mining companies pay per demolished house",
+      "theme": "compensation",
+      "source": "Mongabay, 'RD Congo: une mine de cuivre envahit un village vieux de plus de 80 ans', 2022"
+    },
+    {
+      "name": "unnamed Kolwezi mother",
+      "location": "Kolwezi",
+      "context": "reacting to a viral video of Congolese diggers being whipped by FARDC soldiers on the orders of Chinese mine managers",
+      "paraphrase": "said as a mother she was deeply shocked to see her compatriots treated so inhumanely, and that she had already gone to the courts and would follow the case closely",
+      "theme": "violence / security",
+      "source": "Actualite.cd, 'RDC: sur ordre des miniers chinois, deux creuseurs congolais torturés par des militaires FARDC', 2021-07-24"
+    },
+    {
+      "name": "Ghislain Chivundu Mutalemba",
+      "role": "commander, local mining brigade",
+      "location": "Kamituga area, South Kivu",
+      "context": "on Chinese-partnered gold cooperatives operating behind checkpoints that block official monitors",
+      "quote": "On contrôle difficilement ces sociétés.",
+      "quote_en": "It's hard to keep tabs on these companies.",
+      "theme": "opacity / illegal mining",
+      "source": "VOA Afrique, 'Mines d'or en RDC: les sociétés chinoises dans le collimateur', 2024"
+    },
+    {
+      "name": "Hilaire Isombya",
+      "role": "coordinator, civil-society consultation framework",
+      "location": "Mwenga territory, South Kivu",
+      "paraphrase": "argues that mining activity involving Chinese companies has itself become a source of insecurity in the region, and has called on the provincial governor to suspend it",
+      "theme": "security",
+      "source": "Mongabay, 'RDC: des attaques contre les chinois de l'industrie extractive', 2022"
+    }
+  ],
+
+  "civil_society_positions": [
+    {
+      "organization": "CNPAV (Congo Is Not for Sale coalition)",
+      "position": "calculated that Sicomines' tax exemptions cost the DRC treasury $132 million in 2024 alone, and warned that if copper stays below $8,000/tonne the country 'will receive less, or even nothing at all' from the deal",
+      "theme": "economic fairness",
+      "source": "CFR, 'China in Africa: March 2025', citing CNPAV"
+    },
+    {
+      "organization": "South Kivu provincial parliamentary commission",
+      "position": "formally found six Chinese companies guilty of illegally mining gold and cassiterite in Mwenga territory without permits, operating through local cooperatives as a legal shield, and polluting rivers with mining chemicals",
+      "theme": "illegal mining / pollution",
+      "source": "Anadolu Agency (AA), 2021-11-06"
+    },
+    {
+      "organization": "Amnesty International + IBGDH (Initiative pour la bonne gouvernance et les droits humains)",
+      "position": "jointly condemned forced evictions and mass relocations in Kolwezi carried out for mining expansion without resettlement plans or adequate compensation",
+      "theme": "displacement / human rights",
+      "source": "AllAfrica, June 2025 press conference in Lubumbashi"
+    },
+    {
+      "organization": "AFREWATCH",
+      "position": "has documented at least 35 cases of physical abuse of artisanal miners at industrial mine perimeters since 2018, and separately published a dedicated report on private security companies and human rights in Haut-Katanga and Lualaba",
+      "theme": "violence / security",
+      "source": "France24 Observers; AFREWATCH report, May 2025"
+    },
+    {
+      "organization": "South Kivu civil-society movements",
+      "position": "organized a sit-in outside the provincial governor's office in Bukavu demanding transparency over the fate of Chinese nationals arrested for illegal gold mining and the gold/cash seized from them",
+      "theme": "accountability / opacity",
+      "source": "AllAfrica, 2025-01-07"
+    }
+  ],
+
+  "public_diplomatic_exchange": {
+    "event": "a 2021 Twitter exchange after President Tshisekedi announced a review of China-linked mining contracts",
+    "participants": [
+      {"name": "J. Peter Pham", "role": "former US special envoy for the Great Lakes/Sahel", "paraphrase": "publicly backed Tshisekedi's move, arguing opaque deals trading real minerals for inferior or non-existent infrastructure serve no one but the people who signed them"},
+      {"name": "Zhu Jing", "role": "then-Chinese ambassador to the DRC", "quote": "must not become the battleground for great powers", "context": "warning aimed at the DRC"}
+    ],
+    "source": "South China Morning Post, 2021-09-25"
+  },
+
+  "counterpoint_positions": [
+    {
+      "actor": "Aaron Chen",
+      "role": "General Manager of Operations, MMG Kinsevere (China Minmetals subsidiary)",
+      "context": "speaking at the Cobalt Institute's annual congress in Madrid",
+      "paraphrase": "publicly called on the Congolese government to clarify its cobalt export-quota policy and allocation criteria, saying the quotas assigned to his company were insufficient and economically damaging",
+      "theme": "Chinese-company grievance against DRC policy",
+      "source": "Le Blog Auto, May 2026"
+    },
+    {
+      "actor": "Chinese Embassy / Ambassador Zhao Bin (public messaging)",
+      "paraphrase": "consistently frames the relationship in terms of 'win-win' modernization, shared development, and deep traditional friendship dating to the independence era, and highlights training scholarships, agriculture, and infrastructure cooperation",
+      "theme": "official narrative",
+      "source": "Chinese Embassy in DRC statements, 2024-2026; China-DRC Media Forum, Kinshasa, March 2026"
+    }
+  ],
+
+  "continental_polling_context": {
+    "source": "Afrobarometer (pan-African survey network)",
+    "finding_general": "across 34-36 African countries surveyed in 2019-2021, roughly 60-66% of respondents rated China's economic and political influence as 'somewhat' or 'very' positive, versus 13-14% negative - similar to or slightly ahead of perceptions of the US",
+    "finding_trend": "positive perceptions of China have slipped over time in some countries (e.g. a survey wave showed 60% positive in 2019/20 versus 65% in 2014/15), with the sharpest declines in Gabon and Namibia",
+    "finding_caveat": "the same surveys show majorities of Africans who are aware of Chinese loans worry their countries have borrowed too much from China, and the US remains the more popular development model overall (30% vs 24% in one survey)",
+    "drc_specific_data": "not available in a DRC-specific public breakdown from the searches conducted for this database; the figures above are continent-wide aggregates that include but do not isolate the DRC",
+    "verification_status": "confirmed at the continental level; DRC-specific numbers not independently located"
+  },
+
+  "book_and_media_discourse": {
+    "cobalt_red": {
+      "work": "'Cobalt Red: How the Blood of the Congo Powers Our Lives' by Siddharth Kara (2023)",
+      "content": "a widely read, Pulitzer-finalist book built on first-hand interviews with Congolese artisanal miners describing extreme poverty, injury, and exploitation",
+      "criticism": "reviewers (e.g. openDemocracy) have criticized the book for a 'colonial mindset' that portrays Congolese people primarily as helpless victims rather than agents, oversimplifying a complex system into good/evil binaries, and filtering Congolese voices heavily through the author's own framing",
+      "use_in_this_database": "cited here only to flag its existence and the debate around it, not as a source of specific verified facts"
+    },
+    "global_voices_summary": "a Global Voices citizen-media roundup (April 2025) states plainly that 'many Congolese see the contract as a one-sided deal' that mainly benefited former president Joseph Kabila's circle - reflecting a widely shared sentiment in Congolese public commentary rather than a single individual's view"
+  },
+
+  "cultural_footnote": {
+    "item": "the Masina commune of Kinshasa carries the informal nickname 'Chine Populaire' ('People's China') per its Wikipedia entry",
+    "caveat": "the origin and current resonance of this nickname were not independently confirmed beyond the encyclopedia entry; included as a minor cultural curiosity, not a data point about sentiment"
+  }
+}

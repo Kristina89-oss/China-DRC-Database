@@ -1,0 +1,61 @@
+{
+  "description": "Western counter-strategies: minerals-for-security, arbitration, technological exploration",
+  "verification_status": "substantially updated relative to the user's original documents - the US-DRC deal has gone much further than a mere 'proposal'; it is a signed agreement as of mid-2026",
+  "minerals_for_security": {
+    "timeline": [
+      {"date": "2025-02-22", "event": "Tshisekedi's first public offer (NYT interview) - mineral access in exchange for help against M23"},
+      {"date": "2025-03", "event": "formal proposal from the Trump administration; Tshisekedi also sends a letter to Trump"},
+      {"date": "2025-04-17", "event": "Erik Prince/FSG contract with the DRC Ministry of Finance (~$700m)"},
+      {"date": "2025-06", "event": "DRC and Rwanda foreign ministers sign a peace declaration in Washington"},
+      {"date": "2025-12-04", "event": "Tshisekedi and Kagame in Washington: the Washington Accords (peace) plus the US-DRC Strategic Partnership (minerals and security) are signed"},
+      {"date": "2026-01-21", "event": "Congolese lawyers file a constitutional challenge against the agreement in Kinshasa"},
+      {"date": "2026-02", "event": "criticism grows: Tshisekedi's office praises the partnership but fighting continues; Corneille Nangaa (AFC/M23) calls the deal 'unconstitutional'"},
+      {"date": "2026-04", "event": "Virtus Minerals (US, 8 employees) - the first major deal under the program: rights to the Mutoshi deposit (up to 5% of world cobalt supply)"}
+    ],
+    "deal_terms": "preferential access for American firms to DRC minerals (cobalt, copper, lithium, tantalum) in exchange for security assistance, training, equipment, and transport-corridor development",
+    "criticism": [
+      "Oakland Institute (report 'Shafted', Oct 2025): peace is being 'sacrificed' for extraction",
+      "Al Jazeera (Feb 2026): Congolese fear a repeat of the exploitative model",
+      "Public Citizen: the deal expands investor rights with weak accountability safeguards"
+    ],
+    "sources": ["CFR 2025-12", "Carnegie Endowment 2025-03", "PBS 2025-12-04", "Al Jazeera 2026-02-04", "Oakland Institute", "Security Council Report 2026-03", "Public Citizen", "Mongabay 2026-02/04", "Pillsbury Law 2026-01-28"]
+  },
+  "erik_prince_details": {
+    "see_also": "military_dimension.json - 'private_military_and_security' section",
+    "background": "FSG had registered entities in the DRC since 2018; in 2023 the UN Group of Experts accused Prince of attempting to bring 2,500 Latin American mercenaries into North Kivu (the deal fell through)",
+    "2025_contract": "finalized before M23's January 2025 offensive began; focused on tax collection and anti-smuggling, with no initial plan for combat involvement",
+    "source": "Reuters (exclusive by Jessica Donati, Sonia Rolley)"
+  },
+  "manono_arbitration": {
+    "parties": "AVZ Minerals (Australia) vs. DRC/Cominiere; a parallel dispute with Zijin Mining",
+    "timeline": [
+      {"date": "2023-02", "event": "DRC's Ministry of Justice revokes AVZ's permit (PE13359), transferring the asset to a structure involving Zijin"},
+      {"date": "2023-06-09", "event": "AVZ files with ICSID (ARB/23/20)"},
+      {"date": "2024-01", "event": "ICSID interim measures favor recognizing the rights of Dathcom Mining (AVZ's structure)"},
+      {"date": "2025-03", "event": "the ICC awards AVZ EUR39.1m (~$42.46m) - compensation from Cominiere for breaching interim measures; this is NOT a ruling on the merits of the underlying dispute"},
+      {"date": "2025-05", "event": "AVZ and KoBold Metals sign a framework agreement (~$1bn) brokered by the US - an attempt to settle AVZ's claims"},
+      {"date": "2025-05/06", "event": "ICSID proceedings suspended until 23 June at the US's request"},
+      {"date": "2025-06-24", "event": "AVZ resumes ICSID arbitration - the DRC did not engage in substantive dialogue"},
+      {"date": "2026-01", "event": "per IDS reporting, the White House pushes AVZ to sell its interests to KoBold Metals"},
+      {"date": "2026-03-19", "event": "CAMI (DRC's registry) cancels AVZ's related permit (PR 4029) for unpaid fees"},
+      {"date": "2026-06", "event": "the Zijin/Cominiere JV ('Manono Lithium', 61%/39%) begins the DRC's first lithium production"}
+    ],
+    "key_clarification": "the $42m award is an ICC ruling against Cominiere for a specific procedural breach - NOT a final ruling on the merits of the ownership dispute; the main ICSID case against the DRC state remains ongoing as of 2026",
+    "sources": ["ChemAnalyst 2025", "AVZ Minerals official releases (avzminerals.com.au/arbitration)", "Jus Mundi (case ARB/23/20)", "Mining.com 2025-07-22", "IDS (Institute of Development Studies)", "Bankable Africa 2026-03-27", "Bloomberg 2025-01-07", "SMM (news.metal.com)"]
+  },
+  "kobold_metals": {
+    "profile": "California-based company, AI-driven mineral exploration",
+    "investors": ["Bill Gates (Breakthrough Energy Ventures)", "Jeff Bezos"],
+    "geography": "Zambia (Mingomba deposit) and the DRC",
+    "role_in_manono": "framework agreement to buy out AVZ's stake (May 2025, ~$1bn) with US backing",
+    "verification_status": "the general profile is well documented; the detailed financial structure of the Manono deal was not verified beyond the cited sources"
+  },
+  "virtus_minerals": {
+    "profile": "American company, 8 employees at the time of the deal",
+    "deal": "rights to copper-cobalt deposits including Mutoshi (a former Chemaf asset) - up to 5% of world cobalt supply",
+    "date": "April 2026",
+    "significance": "the first major deal signed after the December 2025 US-DRC agreement",
+    "nuance": "the Mutoshi asset was previously (2024) the target of a competing $1.4bn bid from China's Norin Mining (Norinco) - it ultimately went to the American company",
+    "source": "Mongabay 2026-04-17 (citing the Wall Street Journal)"
+  }
+}

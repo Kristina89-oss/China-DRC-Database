@@ -1,0 +1,18 @@
+{
+  "description": "Where the real chokepoint is: not the mines, but the refineries",
+  "verification_status": "confirmed (IEA Global Critical Minerals Outlook 2026, Cobalt Institute/Statista, multiple analytical sources)",
+  "key_thesis": "The original source documents measure China's influence by its share of extraction (~80% of DRC cobalt). But the real lever is midstream: China controls 70-80% of world cobalt refining, while the DRC refines less than 5% of its own output. Even minerals shipped via the 'Western' Lobito corridor mostly come from Chinese-capitalized mines and still end up at Chinese refineries.",
+  "value_chain": [
+    {"stage": "Extraction (upstream)", "leader": "DRC", "share": "70-76% of world cobalt output; ~3.4 million tonnes of copper in 2025 (~15% of world output)", "china_control": "~72-80% of DRC's copper-cobalt assets; per the Atlantic Council, a stake in 15 of 19 cobalt mines"},
+    {"stage": "Refining (midstream)", "leader": "China", "share": "70-80% of world cobalt refining capacity (estimates vary: 70%, 75%, 77%, 80% across sources); ~73% of lithium; ~65% of nickel", "drc_control": "less than 5% of its own output is refined domestically"},
+    {"stage": "Cathode materials and cells (downstream)", "leader": "China", "share": "dominant in precursors, cathodes, and cell manufacturing", "note": "in October 2025 China imposed export controls on cathode materials, precursors, and graphite anodes - the same weapon the DRC now applies to raw materials"}
+  ],
+  "china_financing": {
+    "volume_2000_2023_busd": 98,
+    "coverage": "official Chinese loans and grants for extraction/processing of 32 critical minerals across 47 countries",
+    "structure": "92% of financing goes to extraction, only 8% to local processing; 83% of loans go to mines fully or partly owned by Chinese companies",
+    "source": "AidData, Chinese Financing for Transition Minerals Dataset v2.0",
+    "implication": "institutionally locks the DRC into the role of raw-material supplier"
+  },
+  "why_it_matters": "The DRC's ban on exporting concentrates (June 2026) is the first attempt by Kinshasa to attack midstream directly, rather than simply trading in volumes. But without solving the power-supply shortfall (estimated at ~3,000 MW by the minister), building domestic smelting capacity is impossible - which loops back to the hydropower cascade, controlled by the same Chinese companies."
+}

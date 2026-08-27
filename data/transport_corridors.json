@@ -1,0 +1,41 @@
+{
+  "description": "Export corridors: two competing logistics systems",
+  "verification_status": "confirmed by multiple sources (Reuters/Ecofin, OECD, ORF, Veracity Worldwide, AFC)",
+  "key_paradox": "Lobito is Western-financed, but its biggest potential customers are Chinese-capitalized mines. The open-access model can't exclude Chinese companies without undermining the project's economics. At the same time, CMOC and Zijin have taken equity stakes in the competing TAZARA line - hedging both routes.",
+  "corridors": [
+    {
+      "name": "Lobito Corridor",
+      "direction": "west, to the Atlantic (Port of Lobito, Angola)",
+      "sponsors": ["United States (PGII)", "EU (Global Gateway)", "African Development Bank", "Africa Finance Corporation", "Italy - $320m"],
+      "operator": "Lobito Atlantic Railway - a consortium of Trafigura (49.5%), Mota-Engil, and Vecturis; 30-year concession",
+      "length_km": "1,300+ (rehabilitation of the Benguela railway) plus ~830 km of new line through Zambia",
+      "2026_financing": "a $753m financing package closed (Africa Finance Corporation, July 2026); ~$1bn previously mobilized via PGII",
+      "speed": "5-8 days from Kolwezi to the Atlantic versus ~25 days by road to Durban",
+      "drc_commitment": "reportedly, 50% of DRC state companies' copper, 30% of cobalt, and 90% of zinc must move via the DRC section within the next 5 years",
+      "risks": "the DRC section is badly degraded; the Zambian extension has not started; questions about economic viability (ECDPM, IRIS); no supranational governance body"
+    },
+    {
+      "name": "TAZARA (Tanzania-Zambia)",
+      "direction": "east, to the Indian Ocean (Port of Dar es Salaam)",
+      "sponsor": "China (BRI)",
+      "deal": "a 30-year concession, signed in November 2025",
+      "amount_busd": "1.24-1.4 (estimates vary)",
+      "length_km": 1860,
+      "ownership_structure": {
+        "China Civil Engineering Construction (CCECC)": "80%",
+        "Zijin Mining": "5%",
+        "CMOC": "5%",
+        "Jiayou International Logistics": "5%",
+        "COSCO Shipping Holdings": "5%"
+      },
+      "structural_significance": "vertical integration: extraction (CMOC, Zijin) + inland logistics (Jiayou) + sea transport (COSCO) in one loop",
+      "throughput_target": "growth from 100,000 t to 2.4 million t per year",
+      "current_state": "annual throughput ~230,000 t, after decades of underinvestment"
+    }
+  ],
+  "player_shares_of_2025_drc_exports": {
+    "CMOC (TFM + KFM)": "21.9% of all DRC copper exports",
+    "Zijin": "39.6% stake in Kamoa-Kakula - the country's largest copper complex"
+  },
+  "conclusion": "This isn't a simple either/or contest, it's a split by destination: Lobito targets Atlantic (Western) markets, TAZARA targets Asian and Chinese processing capacity. For Kinshasa and Lusaka, simply having two competing sponsors creates a bargaining leverage that would not exist with only one."
+}

@@ -1,0 +1,66 @@
+{
+  "description": "The Congo Hold-up investigation: the corruption network around the Sicomines contract",
+  "verification_status": "the scheme's structure is confirmed by primary sources (The Sentry, PPLAAF); specific dollar amounts for individual branches vary between reports - ranges are given",
+  "investigation": {
+    "name": "Congo Hold-up",
+    "publication_date": "2021-11-19 (first materials)",
+    "leak_organizers": ["PPLAAF (Platform to Protect Whistleblowers in Africa)", "Mediapart"],
+    "distribution": "European Investigative Collaborations (EIC)",
+    "data_volume": "3.5 million leaked BGFIBank documents (bank statements, letters, contracts, invoices)",
+    "document_period_covered": "more than 10 years",
+    "participants": "19 media organizations + 5 NGOs (including The Sentry, Al Jazeera, BBC, Der Spiegel, RFI, Le Soir, NRC Handelsblad), about 100 people across 18 countries",
+    "bank_source": "BGFIBank Group (headquartered in Gabon, with a Congolese subsidiary)",
+    "website": "https://congoholdup.com"
+  },
+  "nodes_in_the_scheme": [
+    {
+      "node": "China Railway Group + Sinohydro",
+      "role": "principal shareholders of Sicomines (68%), source of the covert financing",
+      "amount_musd": "not stated directly - funds were routed through CCC"
+    },
+    {
+      "node": "Congo Construction Company (CCC)",
+      "role": "shell company with no real construction activity; a financial conduit",
+      "key_figure": "Du Wei (Chinese businessman, intermediary)",
+      "amount_musd": "55-65 (sources diverge: the user's original document says $55m of 'proven Chinese origin'; The Sentry's 'The Backchannel' report says Du Wei moved $65m through CCC's accounts)",
+      "detail": "in July 2018, a single $2.5m cash withdrawal despite a ban; in 2016, transfers in $25m quarterly tranches ahead of the expiry of Kabila's mandate"
+    },
+    {
+      "node": "BGFIBank DRC",
+      "role": "the central node; run by President Kabila's brother",
+      "manager": "Selemani Francis Mtwale (Joseph Kabila's adoptive brother), managing director 2011-2018",
+      "shareholder": "Gloria Mteyu (Kabila's sister) - 40% when the bank was founded in 2010",
+      "amount_musd": "138 (per PPLAAF/Mediapart - the minimum in DRC state funds that passed through the bank to Kabila's circle); L'Orient Today cites the same $138m figure plus separately $33m deposited in cash and $72m from unknown sources channeled through a Central Bank account"
+    },
+    {
+      "node": "DRC Central Bank and Gecamines",
+      "role": "sources of state funds redirected through BGFIBank",
+      "amount_musd": "94.5 (Central Bank, per the user's original document) + 20 (Gecamines) - these specific figures were not independently re-verified in this round"
+    },
+    {
+      "node": "Joseph Kabila's network",
+      "role": "recipient - family, associates, political cover",
+      "amount_musd": "~31 (per the user's original document - transferred by CCC directly to Kabila-linked individuals/companies); not independently re-verified"
+    }
+  ],
+  "international_banks": {
+    "mentioned": ["Citibank", "Commerzbank"],
+    "allegation": "The Sentry accuses these banks of failing to exercise due diligence while dealing with BGFIBank"
+  },
+  "aftermath": {
+    "political": "Tshisekedi launched a purge of Kabila loyalists in the state apparatus after taking power",
+    "judicial": "reports indicate legal proceedings began against implicated figures under the Tshisekedi administration",
+    "structural": "opacity in the mining sector persists; informal networks realigned around new political elites"
+  },
+  "sources": [
+    "The Sentry - 'The Backchannel: State Capture and Bribery in Congo's Deal of the Century' (2021-11-29/30)",
+    "PPLAAF - congoholdup-leak (2021-11-19)",
+    "Al Jazeera (2021-11-19/12-06)",
+    "L'Orient Today (2021-11-19)",
+    "Africa Uncensored (2021-12-07)",
+    "Teller Report / Mediapart (2021-11-28/29)",
+    "Daily Maverick (2021-12-06)",
+    "African Business (2021-12-10)",
+    "EIC network (congo-holdup project page)"
+  ]
+}

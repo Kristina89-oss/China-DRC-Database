@@ -1,0 +1,73 @@
+{
+  "description": "The military dimension: Chinese arms supplies to both sides of the conflict, PMCs/PSCs in the DRC",
+  "verification_status": "drone and air-defense supplies are confirmed by industry and news sources; the specific claim about CH-4s being intercepted by Sky Dragon systems originates from DRC intelligence and is not independently verified",
+  "china_supplies_to_drc": {
+    "ch4_caihong4": {
+      "manufacturer": "CASC (China Aerospace Science and Technology Corporation)",
+      "quantity": 9,
+      "order_date": "February 2023",
+      "delivery": "three batches of 3 units, the last in May 2024",
+      "use": "reconnaissance and strikes on M23/RDF positions in eastern DRC",
+      "sources": ["The Diplomat 2023-03-25", "UAS Vision 2023-07-04", "ArmyRecognition 2024", "ChimpReports 2024"]
+    },
+    "wing_loong_2": {
+      "manufacturer": "CATIC / Chengdu Aircraft Industry Group",
+      "quantity": 3,
+      "status": "under negotiation, not finalized as of the last check (April 2025)",
+      "sources": ["Military Africa 2025-04-27", "militaeraktuell.at 2025-05-03"]
+    },
+    "fighter_jets": {
+      "models_under_negotiation": ["Chengdu FC-1 Xiaolong / JF-17 (joint with Pakistan)", "Chengdu J-10"],
+      "context": "replacing Soviet-era Su-25s (one damaged by a missile at Goma airport, 2023)",
+      "verification_status": "not independently re-verified this round - carried over from the user's original document"
+    }
+  },
+  "china_supplies_to_rwanda": {
+    "sky_dragon_50_tl_50_dk_10": {
+      "manufacturer": "Norinco (China North Industries Corporation) / AVIC development",
+      "type": "medium-range air-defense system (up to 50 km)",
+      "first_delivery": 2014,
+      "status": "Rwanda was the first foreign buyer of the system",
+      "also_used_by": ["Morocco (since 2017-2018, ~24 batteries)"],
+      "sources": ["ArmyRecognition 2014-11-23", "GlobalSecurity.org (DK-10/TL-50)", "Wikipedia (DK-10)", "globaldefensecorp.com"]
+    },
+    "yitian": {
+      "type": "Norinco short-range air-defense system",
+      "verification_status": "mentioned in the context of Chinese air-defense systems in the region; a specific delivery to Rwanda has not been independently confirmed"
+    },
+    "interception_claim": "according to DRC intelligence (citing Africa Intelligence, per the user's original document), Rwanda uses Sky Dragon 50 against DRC's CH-4 drones - this specific claim was not confirmed by an independent source during verification and is noted as one party's allegation"
+  },
+  "private_military_and_security": [
+    {
+      "name": "Chinese PSCs (general)",
+      "mandate": "perimeter and logistics security for mines in the south (Lualaba, Haut-Katanga), no combat role",
+      "distinction_from_wagner": "not aimed at political control or frontline operations",
+      "sources": ["VOA 2024", "wardheernews.com"]
+    },
+    {
+      "name": "Frontier Services Group (FSG) / Erik Prince",
+      "founder": "Erik Prince (founder of Blackwater)",
+      "contract": "with the DRC Ministry of Finance, April 2025",
+      "estimated_value_musd": 700,
+      "mandate": "tax collection, anti-smuggling of minerals, security in Katanga; initially no combat role envisioned",
+      "escalation": "February 2026 - Prince's contractors provided support (including drones) to DRC forces defending Uvira from M23; reverted to tax/security functions after the situation stabilized",
+      "historical_context": "structures linked to Prince (Cheetah Logistics) had already operated in the DRC since 2015; FSG has historic ties to China's CITIC",
+      "sources": ["Reuters (via Aol.com) - exclusive", "Friends of the Congo 2026-07-20", "TheAfricaReport 2025-04-18", "Geeska 2026-02-11", "Military Africa 2025-04-30", "Inkstick 2024-04-23"]
+    },
+    {
+      "name": "Agemira RDC",
+      "origin": "Bulgarian parent company",
+      "function": "reportedly services/logistics for DRC drones, airfield security",
+      "verification_status": "not independently re-verified this round - carried over from the user's original document"
+    },
+    {
+      "name": "Congo Protection (Romanian contractors)",
+      "verification_status": "not independently re-verified this round - carried over from the user's original document; a broader, separately confirmed fact (Military Africa, 2025) is that Rwanda/M23 forces captured over 200 European mercenaries in February, including Romanians who had been fighting on the DRC side"
+    }
+  ],
+  "conflict_context": {
+    "displaced_people_millions": 7.3,
+    "sides": "FARDC plus allied militias (Wazalendo) against M23 (which UN reporting says is backed by Rwanda)",
+    "china_un_security_council_position": "non-interference rhetoric; support for ceasefire and withdrawal resolutions; blocks initiatives linking market access to human rights"
+  }
+}

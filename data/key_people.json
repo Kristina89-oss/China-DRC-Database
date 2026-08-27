@@ -1,0 +1,163 @@
+{
+  "description": "A directory of named individuals: who specifically communicates between China and the DRC - role, influence, scandals. Rumors and unproven allegations are flagged separately and not presented as fact.",
+  "status_legend": {
+    "fact": "confirmed by at least two independent sources",
+    "allegation": "formally brought (court case, investigation, sanctions) - process status noted",
+    "claim_or_rumor": "a claim by one party, an investigative-journalism finding based on a leak, or unconfirmed rumor - the source is specified"
+  },
+
+  "chinese_side": [
+    {
+      "name": "Zhao Bin (\u8d75\u6591)",
+      "role": "Chinese Ambassador to the DRC",
+      "background": "career diplomat with China's MFA; before this posting he worked on the Europe desk (Director-General of the MFA's European Department); the DRC is his first ambassadorial posting to Africa.",
+      "influence": "fact - the main official channel for Beijing's political communication with Kinshasa; present at all key ceremonies (dam openings, signing of Sicomines amendments).",
+      "scandals": "none documented personally; handles communications during crises (illegal gold mining, evacuations)."
+    },
+    {
+      "name": "Liu Jianfeng",
+      "role": "Chairman of the Board, CMOC Group (since May 2025)",
+      "background": "previously commercial director at CNOOC, CFO at Roc Oil (Fosun International), executive president of ENN Energy Holdings (2023-2025).",
+      "influence": "fact - runs the company controlling the DRC's largest cobalt assets (TFM, Kisanfu); succeeded Yuan Honglin in April-May 2025.",
+      "scandals": "none documented personally."
+    },
+    {
+      "name": "Peng Xuhui",
+      "role": "CEO, CMOC Group",
+      "background": "trained as a physicist (PhD in electronics and information), with the company since 2021.",
+      "influence": "fact - operational leadership of the world's largest cobalt producer.",
+      "scandals": "none documented personally."
+    },
+    {
+      "name": "Sun Ruiwen",
+      "role": "Chief Commercial Officer, CMOC Group (since 2025)",
+      "background": "KEY CONNECTING FIGURE: deputy general manager of China Railway Resource Group (a Sicomines shareholder) in 2009-2012; chairman of the board of Busanga Hydropower Station Co. in 2012-2017; earlier also chairman of Congo (DRC) Luisha Mining, MKM Mining, and Congo (DRC) International Mining Corporation.",
+      "influence": "fact - one of the few Chinese executives who personally moved from being a Sicomines-linked shareholder and Busanga dam chairman to CMOC's top leadership; personifies continuity across generations of Chinese projects in the DRC.",
+      "scandals": "none documented personally."
+    },
+    {
+      "name": "Du Wei",
+      "role": "Chinese businessman-intermediary, head of Congo Construction Company (CCC)",
+      "background": "not a public figure or a top executive of Sicomines' shareholders - served their interests as an intermediary with personal accounts at BGFIBank DRC.",
+      "influence": "allegation (Congo Hold-up investigation, The Sentry) - per The Sentry, moved $65m through CCC's accounts; part of it in quarterly $25m tranches ahead of Kabila's mandate expiring in 2016; withdrew $2.5m in cash in a single transaction in July 2018.",
+      "scandals": "the central figure in The Sentry's 'The Backchannel' report (2021) - the bribery mechanism protecting the Sicomines contract. Has not publicly responded to the allegations; his subsequent fate/whereabouts have not been covered in open sources."
+    },
+    {
+      "name": "Wang Xiaohong",
+      "role": "State Councillor of China, Minister of Public Security",
+      "background": "oversees China's police and internal-security apparatus.",
+      "influence": "fact - on 26 May 2026 in Beijing, signed a police-cooperation agreement with the DRC against mining fraud and cybercrime; the first agreement of this kind at this level between the two countries.",
+      "scandals": "none documented in the DRC context."
+    },
+    {
+      "name": "Yuan Honglin",
+      "role": "former Chairman of the Board, CMOC (2020 - April 2025)",
+      "background": "banking career since 1990 (Bank of China, China Merchants); led CMOC through its period of massive DRC expansion (full buyout of TFM, entry into Kisanfu, CATL's stake purchase).",
+      "influence": "fact - made all of CMOC's major DRC deal decisions from 2020-2025.",
+      "scandals": "none documented personally; his departure was not publicly linked to any scandal."
+    }
+  ],
+
+  "drc_side": [
+    {
+      "name": "Felix Tshisekedi",
+      "role": "President of the DRC (since January 2019, re-elected 2023)",
+      "background": "succeeded Joseph Kabila; launched a review of contracts with China (including Sicomines), later a strategic minerals partnership with the US (Dec 2025).",
+      "influence": "fact - makes the final political calls on every major deal (the Sicomines audit, export quotas, the Erik Prince contract, the US partnership); balances pressure on China against the new alliance with Washington.",
+      "scandals": "critics (including ex-PM Muzito) accuse the administration of insufficient resolve in renegotiating contracts; the opposition warns the US partnership risks repeating the exploitative model."
+    },
+    {
+      "name": "Joseph Kabila",
+      "role": "former President of the DRC (2001-2019)",
+      "background": "signed the original Sicomines deal in 2008. Went into self-exile in 2023 (South Africa), returned to M23-controlled Goma in April 2025.",
+      "influence": "fact (historical) - the architect of the RFI model and the entire 2008-2019 era of Chinese expansion; analysts say he retains influence over part of the political elite.",
+      "scandals": "allegation - on 30 September 2025 a DRC military tribunal sentenced Kabila to death in absentia for treason, war crimes, and aiding M23; his presidential immunity was lifted in May 2025; his whereabouts are unknown. Separately, Kabila's network (see below) features in the Congo Hold-up investigation into embezzlement from the Sicomines era. Kabila denies the charges and calls the trial political."
+    },
+    {
+      "name": "Francis Selemani Mtwale",
+      "role": "Joseph Kabila's adoptive brother; managing director of BGFIBank DRC (2011-2018)",
+      "background": "ran the bank that became the central node of the Congo Hold-up corruption scheme.",
+      "influence": "allegation (The Sentry, 'Embezzled Empire' report) - acquired 17 properties in Washington DC and Johannesburg worth $6.6m in 2015-2018, partly with funds allegedly diverted from the DRC state budget; linked to the shell company Sud Oil (majority-owned by his wife).",
+      "scandals": "no prosecution documented in open sources as of this check; the data comes from the leak of 3.5 million BGFIBank documents."
+    },
+    {
+      "name": "Zoe Kabila",
+      "role": "Joseph Kabila's brother, former governor of Tanganyika province, senator/MP",
+      "background": "owns companies that have won contracts at some of the country's richest mineral deposits (Pulitzer Center, 'All the President's Wealth').",
+      "influence": "fact - political influence in his home province of Tanganyika (where the Manono deposit is located).",
+      "scandals": "briefly detained/barred from leaving the DRC at N'djili airport in February 2022 - independent reporting links the episode more to the case of security adviser Francois Beya than directly to Congo Hold-up; not convicted."
+    },
+    {
+      "name": "Jaynet Kabila",
+      "role": "Joseph Kabila's twin sister, member of the National Assembly (since 2012)",
+      "background": "per 2016 leaks, a part-owner of a major Congolese telecom operator via offshore structures.",
+      "influence": "fact - part of the wider Kabila family business empire described by the Congo Research Group/Pulitzer Center (land, diamond concessions, telecom).",
+      "scandals": "offshore ownership disclosed via leaks, separate from Congo Hold-up; not personally prosecuted."
+    },
+    {
+      "name": "Albert Yuma Mulimbi",
+      "role": "former Chairman of the Board, Gecamines (until Dec 2021)",
+      "background": "economist, head of the Congolese Employers Federation (FEC) - the country's largest business lobby; recommended by Joseph Kabila for prime minister in 2019 (the nomination was rejected).",
+      "influence": "fact - led Gecamines (Sicomines' 32% partner and co-owner of TFM/Deziwa/Kambove) through almost the entire decade of key Chinese deals; removed by Tshisekedi at the end of 2021 amid a broader purge of Kabila loyalists.",
+      "scandals": "no formal charges publicly brought as of this check; his removal was covered as part of a broader elite transition rather than the result of a specific investigation."
+    },
+    {
+      "name": "Baraka Kabemba",
+      "role": "Director General, Gecamines (since March 2026)",
+      "background": "a chartered accountant with a Big Four consulting background; personally involved in negotiating the strategic partnership with the US.",
+      "influence": "fact - now a pivotal figure implementing the DRC's shift from an exclusively Chinese model toward a parallel track with the US; tasked with reforming Gecamines' corporate governance.",
+      "scandals": "none documented; the appointment itself signals a change in direction."
+    },
+    {
+      "name": "Deogratias Ngele Masudi",
+      "role": "Chairman of the Board, Gecamines (since March 2026)",
+      "background": "former DRC Minister of Justice, previously already served as Gecamines' director general.",
+      "influence": "fact - oversees approval of deals such as the sale of Chemaf assets to Virtus Minerals.",
+      "scandals": "none documented."
+    },
+    {
+      "name": "Louis Watum Kabamba",
+      "role": "DRC Minister of Mines (since August 2025)",
+      "background": "an engineer, former president of the Chamber of Mines at the FEC; before the ministerial post, managing director of Kamoa Copper SA (Ivanhoe Mines) from 2015.",
+      "influence": "fact - replaced Kizito Pakabomba amid the review of the cobalt export ban/quotas; coming from a Western (not Chinese) mining company - a symbolically significant appointment.",
+      "scandals": "none documented; press coverage describes him as a technocrat facing skepticism about his ability to push reform against 'entrenched interests.'"
+    },
+    {
+      "name": "Kizito Pakabomba",
+      "role": "former Minister of Mines (May 2024 - Aug 2025)",
+      "background": "20 years in the oil and gas sector (TotalEnergies); founded the lobbying/consulting firm TWYK International in 2017.",
+      "influence": "fact - under his tenure, Amendment No. 5 to Sicomines was signed (March 2024) and the first cobalt export ban was imposed (Feb 2025).",
+      "scandals": "none documented personally; his own lobbying firm (TWYK) creates a structural conflict of interest typical of many DRC ministers' profiles, but no dedicated investigation into him was found."
+    },
+    {
+      "name": "Adolphe Muzito",
+      "role": "DRC Minister of Budget (since 2025); former Prime Minister (2008-2012)",
+      "background": "headed the government at the exact moment the Sicomines deal was signed in 2008; later became one of the deal's most prominent public critics, saying the country 'got nothing' from it.",
+      "influence": "fact - a rare figure on 'both sides of the barricade': from signing the megadeal to fiercely criticizing it, now back in Tshisekedi's government.",
+      "scandals": "none documented personally; his criticism of Sicomines has itself become political capital."
+    },
+    {
+      "name": "Patrick Mpoyi Luabeya",
+      "role": "President, ARECOMS (the mineral markets regulator)",
+      "background": "the architect of the 2025 cobalt export ban and the subsequent quota system.",
+      "influence": "fact - personally decides whether to keep current quotas at 87,000+9,600 t amid market swings (Fastmarkets statements, Aug 2026).",
+      "scandals": "none documented."
+    },
+    {
+      "name": "Eric Kalala Nsatu",
+      "role": "Director General, EGC (Entreprise Generale du Cobalt)",
+      "background": "led the company through 5 years of dormancy to its first shipment of traceable cobalt in November 2025.",
+      "influence": "fact - publicly defends the quota system as 'fairly applied to all operators'; EGC used 100% of its quota versus a roughly 60% national average.",
+      "scandals": "none documented."
+    },
+    {
+      "name": "Jacquemain Shabani Lukoo Bihango",
+      "role": "Deputy Prime Minister, Minister of the Interior, DRC",
+      "background": "signed a police-cooperation agreement with China in Beijing on 26 May 2026.",
+      "influence": "fact - oversees internal security and is now the direct channel for receiving Chinese technical assistance against mining fraud and cybercrime.",
+      "scandals": "none documented."
+    }
+  ],
+
+  "methodological_note": "This list does not claim to be exhaustive - many more officials and lawyers take part in private negotiations over deals like Sicomines (for example, Mayer Brown partners Olivier Meledo and Ian Coles, who are handling the 2026 audit - see sicomines.json) whose names do not always appear in the open press. Turnover in the DRC cabinet is high: positions are current as of August 2026 but may change."
+}

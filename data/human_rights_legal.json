@@ -1,0 +1,40 @@
+{
+  "description": "The human-rights and legal pressure track - a channel barely covered in the original source documents",
+  "verification_status": "confirmed by a primary source (Business & Human Rights Resource Centre, data as of 22 July 2026)",
+  "bhrc_2021_2025_data": {
+    "total_allegations_against_chinese_projects": 434,
+    "period": "2021-2025",
+    "trend": "rising every year; peaked at 148 allegations in 2025",
+    "allegations_2023_2025": 326,
+    "concentration": "10 Chinese companies account for 65% of all allegations",
+    "top_3": [
+      {"company": "Zijin Mining", "allegations": 49},
+      {"company": "Tsingshan Group", "allegations": 42},
+      {"company": "Zhejiang Huayou Cobalt", "allegations": 22}
+    ],
+    "also_in_top_10": ["CMOC Group", "CNMC", "China Minmetals / MMG", "Wanbao Mining", "CHALCO", "Jiangsu Delong Nickel", "Lygend Resources"],
+    "nature_of_allegations": "impacts on livelihoods, health, land rights, workplace deaths, water pollution; in 2023-2025, 18 people were attacked for raising these issues",
+    "geography": "Indonesia has the highest case count; Africa saw the sharpest 2025 increase (+122% versus 2024, 100 allegations)",
+    "corporate_response_rate": "low response rate to inquiries; having a human-rights policy (both Zijin and Huayou do) does not correlate with practice",
+    "source": "BHRC, 'Shifting ground: Human rights, Chinese investment and the rush for transition minerals', July 2026"
+  },
+  "legal_consequences": {
+    "us_cbp_wro": {
+      "date": "2026-06-16",
+      "content": "a US Customs and Border Protection Withhold Release Order against copper and copper products from Serbia Zijin Copper D.O.O., Zijin Mining's Serbian subsidiary",
+      "significance": "a precedent: a US sanctions tool applied to a Chinese mining group via its third-country subsidiary",
+      "source": "Evidencity, 2026-07-22"
+    },
+    "pressure_on_financiers": {
+      "content": "the US House Select Committee on China (chaired by Rep. Moolenaar) sought answers from Morgan Stanley in November 2025 over its underwriting of Zijin Gold International's IPO; Zijin Mining has been added to the UFLPA Entity List",
+      "significance": "pressure is shifting from the companies themselves to the banks that give them access to international capital"
+    }
+  },
+  "situation_in_the_drc": {
+    "forced_labor": "per the 2024 US Department of Labor report, more than three-quarters of artisanal miners may be working under conditions with indicators of forced labor; estimates put the number of children at cobalt mines at at least 25,000",
+    "2023_dol_report": "the TFM (CMOC) and Deziwa (CNMC) operations were named with documented violations in the report (the user's original document cites over 251 cases - not independently re-verified)",
+    "private_security": "AFREWATCH (May 2025) published a separate report on PSCs and human rights in Haut-Katanga and Lualaba; from March 2025, video footage circulated of clashes between Chinese company managers and Congolese workers and artisanal miners",
+    "pollution": "scientific studies document heavy metals in the air, soil, and water around Kolwezi; per rights groups (RAID), Zijin ignores inquiries, while CMOC and Glencore engage at least partially"
+  },
+  "why_this_is_leverage": "Unlike market competition, where subsidized dumping makes head-on rivalry pointless, the human-rights and sanctions track hits the link that Chinese state-bank credit cannot replace: access for Chinese groups to Western sales markets and capital."
+}

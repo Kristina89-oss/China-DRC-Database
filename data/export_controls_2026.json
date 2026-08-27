@@ -1,0 +1,37 @@
+{
+  "description": "DRC export-control escalation: from cobalt quotas to a concentrate export ban",
+  "verification_status": "confirmed - Reuters (via 12+ outlets), StoneX, SMM, IEA; the event was disclosed on 6 August 2026",
+  "2026_concentrate_ban": {
+    "document": "inter-ministerial decree dated 29 June 2026, made public on 6 August 2026",
+    "signatories": ["Louis Watum Kabamba (Minister of Mines)", "Julien Paluku Kahongya (Foreign Trade)", "Daniel Mukoko Samba (Economy)"],
+    "content": "a full ban on exporting copper and cobalt CONCENTRATES (an intermediate product); exports of refined cathodes and metal remain allowed",
+    "exceptions": "the Minister of Mines may grant one-year permits in 'strategic' cases",
+    "supersedes": "the 2023 framework and all exceptions granted under it - operators must re-confirm their export eligibility",
+    "new_tax": "a tax regime on significant by-products with a 55% valuation coefficient, 3-month transition period",
+    "background": "similar restrictions were imposed in 2013, 2019, and 2023 - each time eroded by exceptions; this is the fourth iteration"
+  },
+  "market_reaction": {
+    "copper_lme_3m": "up 1.8% to $14,369.50/t - the highest since 29 January 2026",
+    "historic_record": "$14,527.50/t (29 January 2026)"
+  },
+  "real_scale": {
+    "q1_2026_copper_cathode_exports_t": 696725,
+    "q1_2026_copper_concentrate_exports_t": 53926,
+    "of_which_metal_content_t": 18863,
+    "concentrate_share_of_copper_exports_percent": 2.6,
+    "q1_2026_cobalt_hydroxide_exports_t": 51940,
+    "of_which_metal_content_t": 17054,
+    "analyst_conclusion": "the immediate effect is limited, since most DRC copper is already exported refined; the main casualty is Kamoa-Kakula (Ivanhoe + Zijin), which accounted for ~389,000 t of the DRC's roughly 605,000 t of concentrate copper in 2025 (about 64%)",
+    "sources": ["StoneX (Natalie Scott-Gray)", "Christian-Geraud Neema, China-Global South Project", "SMM/Shanghai Metals Market", "The Oregon Group"]
+  },
+  "escalation_ladder": [
+    {"date": "2025-02-22", "measure": "full cobalt export ban (ARECOMS Decision No. 001/2025)"},
+    {"date": "2025-06 / 2025-09", "measure": "two extensions of the ban"},
+    {"date": "2025-10-16", "measure": "quota system: 18,125 t for the rest of 2025; 96,600 t/year for 2026-2027"},
+    {"date": "2025-12", "measure": "circular requiring 10% royalty prepayment within 48 hours and a compliance certificate before shipment"},
+    {"date": "2026-06-29", "measure": "unused H1-2026 quotas moved into the strategic reserve (announced 29 June, declaration deadline 5 July)"},
+    {"date": "2026-06-29", "measure": "ban on copper and cobalt concentrate exports plus a tax on by-products (55% coefficient)"}
+  ],
+  "analogy": "a direct parallel to Indonesia, which banned nickel ore exports in 2020 and forced smelter construction domestically; per the Africa Center for Strategic Studies, more than 13 African countries have imposed export restrictions since 2023 to push local processing",
+  "constraint": "state administrative capacity remains the limiting factor. Actual exports run at 33-50% of allocated quotas due to customs delays and logistics; the July 2026 platform failure put 20,000 t ($1.1bn) at risk"
+}

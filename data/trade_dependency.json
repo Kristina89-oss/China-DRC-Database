@@ -1,0 +1,38 @@
+{
+  "description": "DRC's trade dependency on China and the reverse flow of Chinese goods",
+  "verification_status": "confirmed - China-Global South Project (based on Chinese customs data), OEC, SAIS-CARI, Lowy Institute",
+  "2025_bilateral_trade": {
+    "total_turnover_busd": 26.7,
+    "china_exports_to_drc_busd": 5.1,
+    "china_imports_from_drc_busd": 21.6,
+    "drc_surplus_busd": "~16",
+    "drc_rank_among_chinas_african_partners": 3,
+    "2025_growth_percent": 3.1,
+    "2024_growth_percent": 38.6,
+    "2025_drc_export_growth_percent": 0.2,
+    "2024_drc_export_growth_percent": 51.8,
+    "slowdown_cause": "the DRC's cobalt export ban, introduced in February 2025 - direct evidence that Kinshasa's regulatory moves genuinely affect trade flows",
+    "source": "China-Global South Project (chinaglobalsouth.com), February 2026, based on China's General Administration of Customs"
+  },
+  "dependency_structure": {
+    "china_share_of_drc_exports_2023_percent": 69.1,
+    "china_share_of_drc_imports_2023_percent": 34.8,
+    "drc_2023_export_structure": {"refined_copper": "57.0%", "cobalt": "11.6%", "copper_ore": "11.2%", "unwrought_copper": "6.8%", "crude_oil": "3.8%"},
+    "source": "OEC / Lloyds Bank Trade profile"
+  },
+  "reverse_flow_snapshot_may_2026": {
+    "drc_exports_to_china_musd": 2280,
+    "of_which": {"refined_copper": 1730, "unwrought_copper": 196, "copper_ore": 128},
+    "drc_imports_from_china_musd": 663,
+    "of_which": {"electric_batteries": 57.3, "electrical_transformers": 41.6, "insulated_wire": 34},
+    "yoy_change": {"batteries": "+507%", "transformers": "+873%", "insulated_wire": "+276%"},
+    "conclusion": "a closed loop in its purest form: the DRC ships refined copper and gets back finished batteries, transformers, and wire made from that same copper - but now with someone else's value added. The growth in Chinese exports in exactly these categories is quantitative proof that value creation is not happening in Congo.",
+    "source": "OEC (oec.world), May 2026 data"
+  },
+  "credit_context": {
+    "chinas_role_reversal": "per the Lowy Institute, China has shifted from the developing world's largest lender to its main debt collector: debt service owed to China totaled $35bn in 2025 overall and $22bn from the poorest countries",
+    "drc_exception": "the DRC is in a narrow group of countries still receiving NEW Chinese lending - alongside Argentina, Brazil, and Indonesia - precisely because it exports critical minerals",
+    "china_lending_to_africa": "$4.61bn in 2023 (the first increase in years) versus a regular $10bn+ at the BRI's peak; a total of 1,306 loans worth $182.28bn to 49 countries over 2000-2023",
+    "significance": "the model has shifted: fewer sovereign loans, more projects repaid through commodity flows and equity stakes - exactly what Sicomines, TAZARA, and Nzilo II describe"
+  }
+}

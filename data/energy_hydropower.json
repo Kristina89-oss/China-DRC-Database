@@ -1,0 +1,71 @@
+{
+  "description": "The Lualaba River hydropower cascade and related energy megaprojects",
+  "verification_status": "confirmed by multiple sources",
+  "projects": [
+    {
+      "name": "Nzilo I",
+      "type": "existing (not a Chinese project)",
+      "capacity_mw": 100,
+      "commissioned": 1953,
+      "operator": "SNEL",
+      "role": "first stage of the cascade, provides scale context"
+    },
+    {
+      "name": "Zongo II",
+      "capacity_mw": 150,
+      "configuration": "3 turbines of 50 MW each",
+      "location": "Inkisi River, Central Kongo province",
+      "contractor": "Sinohydro Corporation",
+      "cost_musd": 360,
+      "construction": "March 2012 - 2018",
+      "opening": "2018-06-22",
+      "grid_role": "unlike Busanga, feeds directly into the national grid serving western DRC",
+      "source": "Wikipedia (Zongo II Hydroelectric Power Station)"
+    },
+    {
+      "name": "Busanga",
+      "capacity_mw": 240,
+      "reserved_for_sicomines_mw": 170,
+      "location": "Lualaba province, Busanga River",
+      "general_contractor": "Power China Engineering (Sinohydro + China Railway Resources Group)",
+      "cost_musd": 660,
+      "financing": "China Eximbank, commercial loan at 6.1% p.a. (2016); $567m for the plant, ~$50m for the 13.15km 500kV transmission line",
+      "mou_signed": 2010,
+      "construction_start": "2017-11",
+      "river_diversion": "2018-08",
+      "reservoir_filling": 2021,
+      "commissioning": "2023-10-06",
+      "social_environmental_cost": "3 villages flooded, 3 more lost farmland; complaints about compensation and lack of electricity access for resettled people",
+      "sources": ["AidData (china.aiddata.org/projects/60065)", "Resource Matters podcast", "africachinareporting.com"]
+    },
+    {
+      "name": "Nzilo II / 'Heshima' project",
+      "capacity_mw": 200,
+      "configuration": "4 turbines of 50 MW + solar/pumped-storage component",
+      "location": "Lualaba River, ~40-60 km from Kolwezi (between Nzilo I and Nseke/Busanga)",
+      "partners": ["CMOC (China)", "Lualaba Power S.A. (JV of Mining Engineering Services + SNEL)"],
+      "cost_musd": ">470",
+      "financial_close": "2024-05-25",
+      "2025_status": "construction site confirmed by the minister on 2025-10-04",
+      "commissioning_target": 2029,
+      "purpose": "power CMOC's planned growth to 800k-1m t/year of copper by 2028",
+      "sources": ["CMOC official news 2024-07-01", "Herbert Smith Freehills Kewei", "Bankable Africa 2025-10-06/07", "zoom-eco.net", "Global Energy Monitor"]
+    },
+    {
+      "name": "Grand Inga (Chinese participation)",
+      "type": "megaproject, early stage",
+      "potential_capacity_gw": 44,
+      "project_valuation_busd": 80,
+      "phase_1_inga_3": "15.5 sq.km reservoir, diversion into a Bundi tributary",
+      "chinese_involvement": "Chinese corporations and Eximbank alongside the World Bank",
+      "world_bank_2025_financing_musd": 250,
+      "risks": "flooding of tropical forest, forced displacement of ~30,000 people",
+      "verification_status": "not independently re-verified this round - carried over from the user's original document, the $250m figure specifically warrants further checking"
+    }
+  ],
+  "summary": {
+    "total_chinese_financed_mw": 590,
+    "total_cascade_including_nzilo1_mw": 690,
+    "purpose": "almost all generation is earmarked for mining consortiums, not the region's residents"
+  }
+}

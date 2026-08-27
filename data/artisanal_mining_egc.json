@@ -1,0 +1,33 @@
+{
+  "description": "Formalizing artisanal cobalt mining: EGC finally gets moving in 2025-2026",
+  "verification_status": "confirmed by multiple sources; final 2026 figures come from trade media (trendsnafrica.com), sourced to EGC's CEO speaking at the MOTA conference",
+  "background": {
+    "creation": "Entreprise Generale du Cobalt (EGC) - a state monopoly on buying artisanal cobalt, created by decree in November 2019, announced in March 2021",
+    "goal": "formalize 40 artisanal mining zones (ZEAs), improve safety, eliminate child labor",
+    "2019_2024_problem": "the company was effectively dormant for nearly five years due to internal conflicts; a pilot at Mutoshi (with Trafigura and Chemaf) was suspended for COVID in 2020 and never resumed",
+    "artisanal_share": "10-30% of DRC cobalt (estimates vary); per Pact, 10-12% of world cobalt output comes from DRC's artisanal sector"
+  },
+  "2025_2026_breakthrough": {
+    "first_batch": "1,000 t of fully traceable artisanal cobalt - November 2025",
+    "2026_target_t": 5000,
+    "export_via_lobito": "EGC became the first Congolese company to export cobalt via the Lobito corridor - about 3,000 t in H1 2026",
+    "quota_utilization": "used '100% of its quota' allocated by ARECOMS, versus a national average of about 60%",
+    "partnerships": [
+      {"partner": "ERG Africa", "date": "2026-02-10", "content": "MoU at Mining Indaba: ERG transfers a Lualaba site to EGC for an artisanal zone"},
+      {"partner": "Gecamines", "date": "early 2024", "content": "allocation of sites to set up ZEAs"}
+    ],
+    "technical_support": "GIZ (Cobalt for Development Programme), coordination with ARECOMS, SEAMAPE, and CEEC",
+    "outlook": "EGC states a goal of developing its own refining and battery manufacturing domestically"
+  },
+  "remaining_problems": {
+    "afrewatch_2023": "the allocated artisanal zone was deemed insufficient; large companies are reluctant to give up parts of their concessions, citing security risks and the fact they already pay for the land",
+    "informal_sector_persists": "per Mongabay (Oct 2024), at the Mutoshi pilot site, after formalization collapsed in 2021, the number of artisanal miners grew almost fivefold (to ~15,000) as fencing and the ID system were dismantled",
+    "accidents": "AFREWATCH regularly documents collapses at artisanal sites (e.g., two collapses in May 2025 at the COMIDE/ERG license near Kisankala, with casualties whose numbers authorities have not disclosed)",
+    "2026_fatal_incident": "a mine collapse in Goma, February 2026 - over 300 dead, more than 100 missing (per Prospect-intel; relates to artisanal mining broadly, not necessarily cobalt specifically)"
+  },
+  "child_labor_estimates": {
+    "ilo_cotecco_project": "funded by the US Department of Labor ($5.5m), implemented by the ILO - monitors and works to eliminate child labor in the cobalt supply chain",
+    "estimated_number_of_children": "roughly 25,000-40,000 children at artisanal cobalt mines across sources (African Elements/The Conversation - 40,000; other sources - at least 25,000)",
+    "2024_us_dol_estimate": "per the user's original document (not independently re-verified this round) - over three-quarters of artisanal miners may work under conditions bearing indicators of forced labor"
+  }
+}

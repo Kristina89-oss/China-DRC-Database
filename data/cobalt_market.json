@@ -1,0 +1,66 @@
+{
+  "description": "DRC cobalt market: price crash, CMOC's dumping, DRC's response via export quotas",
+  "verification_status": "confirmed by multiple sources, including July 2026 data",
+  "approximate_price_history_usd_per_tonne": [
+    {"date": "2022-04", "price": 82000, "note": "historic peak; sources vary $80-88k", "source": "GSR/Benchmark Minerals, Cobalt Institute report"},
+    {"date": "2023-Q4", "price": 34000, "note": "growing surplus as CMOC ramped up", "source": "estimate based on Cobalt Institute Market Report 2023"},
+    {"date": "2024-08", "price": 24900, "note": "7-year low", "source": "user's original document, consistent with the overall trend"},
+    {"date": "2025-01", "price": 21550, "note": "market bottom before the export ban", "source": "user's original document"},
+    {"date": "2025-12-19", "price": 52910, "note": "$24/lb on the European Cobalt Metal Basket A index", "source": "S&P Global Commodity Insights, 2025-12-22"},
+    {"date": "2026-Q1", "price": 58000, "note": "price approaching this level", "source": "esi-africa.com (IEA Global Critical Minerals Outlook)"},
+    {"date": "2026-07", "price": 57320, "note": "$26/lb, up 160% from the low", "source": "Reuters via MiningWeekly/Kitco/CNBC Africa, 2026-07-03"}
+  ],
+  "cmoc_production": {
+    "2023_cobalt_tonnes": 55526,
+    "2023_yoy_growth_percent": "170-174 (overtook Glencore as world's largest producer)",
+    "2024_cobalt_tonnes": 114165,
+    "2024_yoy_growth_percent": 106,
+    "2025_cobalt_tonnes_tfm_kfm": 117500,
+    "sources": ["Copperbelt Katanga Mining 2025-10-26", "Mining.com 2025-01-23", "Cobalt Market Report 2024 (Cobalt Institute)"]
+  },
+  "drc_export_restrictions": {
+    "regulator": "ARECOMS (Regulatory and Control Authority for Strategic Mineral Substances Markets)",
+    "ban": {
+      "decision": "Decision No. 001/ARECOMS/2025",
+      "start_date": "2025-02-22",
+      "initial_deadline": "2025-06-21",
+      "extensions": ["to 2025-09-21", "to 2025-10-15"],
+      "reason": "prices had collapsed to a 9-year low amid a supply glut"
+    },
+    "transition_to_quotas": {
+      "date": "2025-10-16",
+      "remaining_2025_quota_t": 18125,
+      "2025_breakdown": {"october": 3625, "november": 7250, "december": 7250},
+      "2026_2027_annual_quota_t": 96600,
+      "annual_quota_breakdown": {"base_prorata": 87000, "arecoms_strategic_reserve": 9600},
+      "2026_company_allocations_t": {
+        "CMOC": 31200,
+        "Glencore": 22800,
+        "others_erg_huayou_etc": 33000,
+        "note": "source: GreenStocksResearch/IEA Global Critical Minerals Outlook 2026; an alternate estimate (INN, July 2026) gives different Q4-2025 base allocations - $6,650t CMOC, $3,925t Glencore - indicating quotas are re-set between periods"
+      },
+      "rules": [
+        "companies exporting under 100t in 2024 are excluded",
+        "processors without their own mining output are excluded",
+        "unused H1-2026 quotas were cancelled on 30 June 2026 and moved to the strategic reserve",
+        "mandatory 10% royalty prepayment within 48 hours",
+        "a 'liberatory receipt' is required before customs clearance"
+      ]
+    },
+    "2026_disruption": {
+      "date": "2026-07-01/02",
+      "issue": "the customs platform stopped accepting export declarations due to a missing formal notification from ARECOMS",
+      "tonnes_at_risk": 20000,
+      "value_at_risk_musd": 1100,
+      "sources": ["Reuters (via MiningWeekly, Mining.com, Kitco, CNBC Africa, MarketScreener) 2026-07-03/06", "Evidencity 2026-07-22"]
+    },
+    "general_sources": ["IEA Policy Database (ARECOMS Decision No. 004/2025)", "InvestingNews 2025-09-22", "Fastmarkets 2025-09-22 / 2026-04-01", "TRT Afrika 2025-10-06", "Mining-technology.com 2025-09-23"]
+  },
+  "structural_factors": {
+    "drc_share_of_global_output_percent": "70-80 (varies by source and year)",
+    "2023_surplus_tonnes": 12500,
+    "2024_surplus_tonnes": 36000,
+    "lfp_battery_factor": "the share of cobalt-free LFP batteries grew to roughly 40% of China's market by 2024",
+    "indonesian_output_growth": "by-product cobalt from nickel HPAL projects, also predominantly Chinese-financed"
+  }
+}

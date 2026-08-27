@@ -1,0 +1,35 @@
+{
+  "description": "Environment and health around the Kolwezi mines: the 2025-2026 scientific evidence base",
+  "verification_status": "confirmed by a primary source - four independent scientific studies, published by RAID/AFREWATCH/Source International in June 2026",
+  "2026_study": {
+    "authors": ["Source International", "University of Lubumbashi researchers", "RAID (UK)", "AFREWATCH (DRC)"],
+    "publication_date": "June 2026",
+    "coverage": "8 communities around Kolwezi and Fungurume, Lualaba province",
+    "sites_nearby": ["Tenke Fungurume Mining (CMOC)", "COMMUS (Zijin Mining)", "Mutanda Mining (Glencore)"],
+    "testimony": "over 150 interviews with residents and medical staff",
+    "sampling": "12 surface-water samples and 9 sediment samples (October 2025), plus 5 wells",
+    "air_findings": "fine particulate matter exceeded WHO limits by wide margins at EVERY measurement point; researchers called it among the worst readings recorded at mining sites worldwide over years of monitoring; the first independent PM measurement in the region",
+    "water_and_sediment_findings": "elevated concentrations of copper, cobalt, manganese, arsenic, lead, and uranium; copper was the most critical pollutant, exceeding several international standards; metal concentrations in the Kelangile River and Lake Kando above international norms",
+    "critical_case_well": "a community well in Kolwezi, 200m from a tailings dam, was 100 times more acidic than recommended, with manganese and aluminum up to 14 times above health limits (manganese at these levels is neurotoxic)",
+    "critical_case_school": "Galaxy school in Kolwezi, under 500m from COMMUS's waste pile, showed some of the highest air-pollution readings in the study; children spend hours there daily",
+    "resident_complaints": "constant dust (households wash floors 3-4 times a day), falling crop yields, shrinking fish stocks, coughing, headaches, nosebleeds, skin and eye irritation"
+  },
+  "corporate_responses": {
+    "TFM (CMOC)": "provided a detailed written response",
+    "Glencore (MUMI)": "a brief response acknowledging the findings and pledging to factor them into environmental management systems",
+    "COMMUS (Zijin)": "requested an extension after the 1 June deadline; a later comment attributed Kolwezi's pollution partly to natural geological background and historic mining, and cited ISO 14001 and ISO 45001 certification"
+  },
+  "prior_studies": {
+    "raid_afrewatch_2024": "the 'Beneath the Green' report (110 pages) - five mines (TFM/CMOC, Metalkol/ERG, COMMUS/Zijin, KCC, and MUMI/Glencore) together supply two-fifths of world cobalt; Kolwezi (population 500,000+) is described as an emerging 'sacrifice zone'",
+    "reproductive_health": "journalistic investigation (Mongabay, 2024-2025) in Musonoi, near the COMMUS pit: a nurse at the 'La Trinite' clinic reports 5-10 reproductive-health cases a month (~100/year), with documented birth defects",
+    "2018_biomonitoring": "a Kolwezi study (PubMed) found residents of a district turned into an artisanal cobalt pit had significantly higher urinary and blood cobalt levels than a control area, most pronounced in children, who also showed signs of oxidative DNA damage"
+  },
+  "commus_profile": {
+    "full_name": "Compagnie Miniere de Musonoie",
+    "owners": "Zijin Mining 72% (some sources say 67%), Gecamines 28%, DRC 5%",
+    "location": "under 2 km from central Kolwezi, homes within 500m of the pit",
+    "2023_production": "129,000 t of copper and cobalt (per Zijin's own data)",
+    "note": "this asset was absent from the user's original documents - a significant gap, as it is one of the country's largest Chinese-linked mines"
+  },
+  "deforestation": "AFREWATCH published (March 2026) a separate deforestation assessment for Lualaba and Haut-Katanga provinces"
+}

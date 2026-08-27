@@ -1,0 +1,100 @@
+{
+  "description": "Expanded data on the security of Chinese assets in the DRC: specific PSCs, scale, incidents, official police/military cooperation.",
+  "verification_status": "the structure and company names are confirmed by industry sources (Africa Center, Carnegie, Military Africa); presence in the DRC specifically is confirmed, but headcounts at specific DRC sites are not publicly disclosed - estimates are drawn by analogy with other BRI countries.",
+
+  "nature_of_chinese_pscs": {
+    "key_distinction_from_the_west": "Chinese PSCs are formally called 'private', but are in fact state-licensed entities accountable to the Ministry of Commerce and the Ministry of Public Security. Of roughly 5,000 registered security firms in China, only 20 are licensed to operate abroad.",
+    "functions": "perimeter security, cargo escort, training local guards, intelligence-sharing with the host ministry; unlike Wagner, they do NOT take part in combat operations and do not act as political security advisers.",
+    "weapons": "a gray area - Chinese law tightly regulates weapons domestically but does not require a license for overseas operations; the matter is left to the host country's discretion."
+  },
+
+  "companies_confirmed_active_in_the_drc": [
+    {
+      "name": "DeWe Security Service (Beijing Dewei Baoan Fuwu, \u5317\u4eac\u5fb7\u5a01\u4fdd\u5b89\u670d\u52a1)",
+      "status": "the most visible and frequently cited company; per Carnegie Endowment and Grey Dynamics, officially operates in the DRC, Cameroon, Chad, Nigeria, Djibouti, and Ethiopia",
+      "founded": 2011,
+      "founders": "former military and police officers who had worked together at the 2008 Beijing Olympics",
+      "staff": "352 full-time Chinese staff abroad plus about 3,000 locally hired staff (globally, early 2020s data); has trained 70,000-86,000 contractors since 2013",
+      "regional_clients": "China Road and Bridge Corporation, CNPC, China National Petroleum, China Development Bank - all of which also have DRC projects",
+      "leadership": "Li Xiaopeng (CEO)"
+    },
+    {
+      "name": "Huaxin Zhong An Security Group",
+      "status": "one of three companies licensed to carry weapons abroad; specializes in maritime escort (Gulf of Guinea, Gulf of Aden) but also guards facilities",
+      "scale": "together with DeWe, about 35,000 contractors across 50 countries in Africa, South Asia, and the Middle East"
+    },
+    {
+      "name": "Shandong Huawei / Haiwei Security Group",
+      "status": "per the Africa Center for Strategic Studies, specializes specifically in guarding Chinese mines in southern Africa"
+    },
+    {
+      "name": "China Security Technology Group, VSS Security Group",
+      "status": "listed among the 20 companies licensed for overseas operations; in Sudan and South Sudan they accompany local armed forces on operations - the most 'permissive' operating model"
+    }
+  ],
+
+  "scale_in_context": {
+    "licensed_psc_total_in_china": 5000,
+    "licensed_for_overseas_work": 20,
+    "officially_reported_contractors_abroad": 3200,
+    "estimated_real_number": "significantly higher than the official figure, according to researchers (Paul Nantulya, Africa Center)",
+    "comparison_with_pla": "the combined PSC contractor headcount exceeds the 2,500 PLA personnel stationed across the entire African continent (including peacekeepers and the Djibouti base)",
+    "african_countries_with_presence": 14,
+    "chinese_state_company_security_spending": "\u2248$10bn/year worldwide (estimate by the China Overseas Security and Defense Research Center)"
+  },
+
+  "documented_incidents_around_facility_security_in_the_drc": [
+    {
+      "date": "2018-present",
+      "event": "AFREWATCH has documented at least 35 cases of physical violence/torture against artisanal miners who entered mine sites in southern DRC",
+      "source": "France24 Observers, AFREWATCH"
+    },
+    {
+      "date": "2021-07-20",
+      "event": "a viral video: two artisanal miners beaten by guards at the COMMUS (Zijin) mine in Kolwezi for entering the pit area",
+      "source": "Actualite.cd, France24"
+    },
+    {
+      "date": "2019-06",
+      "event": "roughly 10,000 artisanal miners forcibly evicted from the Tenke Fungurume site",
+      "source": "Amnesty International"
+    },
+    {
+      "date": "2021-11",
+      "event": "attack on a gold mine (Ituri/South Kivu): 2 Chinese nationals, a Congolese woman, and a Ugandan killed; 10 more Chinese workers reported missing",
+      "source": "South China Morning Post"
+    },
+    {
+      "date": "2023-09",
+      "event": "ambush on a mining convoy in Lamba village, Fizi, South Kivu: 2 Chinese, 1 Ghanaian, and 1 Congolese soldier killed",
+      "source": "Mining.com"
+    },
+    {
+      "date": "2023-10",
+      "event": "attack on a Chinese gold concession in Fizi: 2 Chinese nationals and a Ghanaian interpreter killed; the site's security at the time of the attack was provided by FARDC soldiers, not a private company",
+      "significance": "direct documentary confirmation that protection of Chinese sites in the east is often assigned to the DRC's own armed forces rather than Chinese PSCs",
+      "source": "Copperbelt Katanga Mining"
+    }
+  ],
+
+  "state_level_cooperation": {
+    "2026_police_agreement": {
+      "date": "2026-05-26",
+      "location": "Beijing",
+      "signatories": ["Jacquemain Shabani Lukoo Bihango (DRC Deputy PM, Interior Ministry)", "Wang Xiaohong (Chinese State Councillor, Minister of Public Security)"],
+      "content": "Chinese technical assistance to the DRC's National Police (PNC) on three fronts: organized crime, mining fraud, cybercrime; a joint working group was set up",
+      "significance": "the first agreement of its kind at the police (not military) level; it expands China's footprint in the DRC's security space without directly deploying the PLA or a PMC",
+      "sources": ["mediacongo.net", "actualite.cd", "DRC Ministry of the Interior (official)"]
+    },
+    "direct_military_assistance": {
+      "format": "arms supplies (CH-4 drones, negotiations on Wing Loong 2 and fighter jets) - see military_dimension.json; there are no official reports of PLA units being stationed in the DRC",
+      "regional_comparison": "China's first-ever defense attache in Africa was only posted (to Niger) in February 2025 - a sign that even routine military-diplomatic presence on the continent remains limited and new",
+      "pla_base": "the PLA's only overseas base in Africa is in Djibouti (since 2017); there is no comparable facility in the DRC"
+    }
+  },
+
+  "why_there_is_no_second_wagner": {
+    "thesis": "Beijing systematically avoids overt military involvement because: (1) the official non-interference doctrine remains diplomatically valuable; (2) the risk of neo-colonialism accusations is already rising alongside the growing number of human-rights complaints (see human_rights_legal.json); (3) the economic model already works through control of processing and capital rather than military control of territory.",
+    "caveat": "the police-cooperation agreement (May 2026) and the growing number of security contracts show the threshold is gradually shifting - but toward policing and security, not combat operations."
+  }
+}

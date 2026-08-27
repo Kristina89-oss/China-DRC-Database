@@ -1,0 +1,85 @@
+{
+  "title": "Sicomines: the 'Resources for Infrastructure' (RFI) model",
+  "verification_status": "confirmed by multiple independent sources",
+  "parties": {
+    "china_consortium": ["Sinohydro Corporation", "China Railway Group", "Zhejiang Huayou Cobalt (added in 2026 audit)"],
+    "china_share_percent": 68,
+    "drc_share_percent": 32,
+    "drc_shareholder": "Gecamines (state-owned)"
+  },
+  "original_2008_agreement": {
+    "date": "2008-04",
+    "initial_value_estimate_musd": "6000-9000 (sources diverge: Mayer Brown cites ~$9bn [$3bn mining + $6bn infrastructure]; IGF/Reuters cite $6.2-6.7bn)",
+    "mining_commitment_musd": 3000,
+    "infrastructure_commitment_musd": "3000 (per some sources) to 6000 (per Mayer Brown)",
+    "mining_rights_scope": "10 million tons of copper and 600,000 tons of cobalt over 25 years",
+    "tax_regime": "full tax exemption until infrastructure and mining loans are repaid, effectively through 2040"
+  },
+  "2023_audit": {
+    "body": "DRC General Inspectorate of Finance (IGF)",
+    "publication_date": "2023-02",
+    "infrastructure_built_musd": 822,
+    "china_profit_musd": "~10,000 (per EITI/IGF); an alternate IGF framing states the companies earned $90.9bn against $6.2bn in obligations (a broader reading covering total turnover, not just net profit)",
+    "auditor_demand_musd": 20000,
+    "sources": ["EITI blog 2024", "Quartz Africa 2023", "The EastAfrican 2023", "Mining.com 2023-02-16/18", "Reuters via Zawya 2023"]
+  },
+  "amendment_5_2024": {
+    "signing_date": "2024-03-14",
+    "details_published": "2024-05-03",
+    "new_infrastructure_commitment_musd": 7000,
+    "increase_from_musd": 3000,
+    "ownership_structure": "unchanged: 68% / 32%",
+    "annual_royalty_percent": 1.2,
+    "financing_mechanism": {
+      "source": "Sicomines profits (also used to repay loans)",
+      "annual_tranche_musd": 324,
+      "period": "2024-2040",
+      "trigger_condition": "LME copper price above $8,000/tonne",
+      "full_freeze_threshold": "$5,200/tonne and below - infrastructure financing stops completely",
+      "upside_bonus": "if price exceeds $8,000 by 50% (>$12,000/tonne), 30% of the windfall goes to additional infrastructure",
+      "copper_price_at_publication_usd_t": "9,150-9,910 (peak of $10,208 shortly before publication)"
+    },
+    "sources": ["Mining.com 2024-05-06", "Bloomberg 2024-05-06", "MiningWeekly 2024-03-15 / 2024-05-06", "SCMP 2024-02-04", "Ecofin Agency", "Copperbelt Katanga Mining 2024-06-07"]
+  },
+  "new_2026_audit": {
+    "status": "NEW - absent from the user's original source documents, found during verification",
+    "start_date": "2026-03-05",
+    "initiator": "APCSC (Agency for Monitoring and Coordination of Cooperation Agreements)",
+    "coverage_period": "2008-2024 (full)",
+    "drc_legal_counsel": "Mayer Brown (partners: Olivier Meledo, Ian Coles)",
+    "reserve_certification": "SRK Consulting",
+    "cumulative_sicomines_debt_musd": "~9,000 (combined mining and infrastructure loans)",
+    "sources": ["Mayer Brown press release 2026-03", "Ecofin Agency 2026-03-11", "MiningFocus Africa 2026-03-13", "Bankable Africa 2026-03-09"]
+  },
+  "road_projects_amendment_5": [
+    {
+      "name": "Kinshasa ring road",
+      "location": "western DRC",
+      "length_km": 63,
+      "cost_musd": 300,
+      "status": "works underway",
+      "purpose": "relieve traffic congestion in the megacity (17 million people)"
+    },
+    {
+      "name": "Mbuji-Mayi - Nguba road",
+      "location": "Lualaba, southern DRC",
+      "length_km": 900,
+      "financing": "from the $324 million annual tranche",
+      "status": "in progress",
+      "purpose": "paving the road linking the resource region to the Kinshasa-Lubumbashi highway"
+    },
+    {
+      "name": "Kananga - Kalamba-Mbuji corridor",
+      "location": "central DRC",
+      "length_km": 230,
+      "financing": "from the $324 million annual tranche",
+      "status": "announced",
+      "purpose": "upgrading the route to the Angolan border for export logistics"
+    }
+  ],
+  "civil_society": {
+    "coalition": "Congo Is Not for Sale (CNPAV)",
+    "estimated_2024_budget_loss_musd": 132,
+    "cause": "Sicomines tax holidays"
+  }
+}
