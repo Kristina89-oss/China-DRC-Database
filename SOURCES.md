@@ -357,3 +357,34 @@ Congo Construction Co., "\u2265$138m" for BGFIBank) come from `corruption_networ
 - Wikipedia - "Masina, Kinshasa" (the "Chine Populaire" nickname, included as an unverified cultural footnote only)
 
 > This section is qualitatively different from the rest of the database: it captures opinion and testimony, not verified events. Names, quotes, and organizational positions are reproduced as attributed by the citing outlet; none have been independently re-interviewed for this database.
+
+# Addendum 6: Spatial Clustering Test
+
+## 20. Do Chinese-Linked Concessions Cluster Geographically? - ✅ Confirmed (methodology and per-concession sources documented in `data/spatial_clustering_test.json`)
+
+**Methodology:** this section is a statistical test, not a narrative claim, so its sourcing has two layers - the geometry, and the ownership attribution laid over it.
+
+**Geometry (171 raw polygons, dissolved to 145 concessions):**
+- OpenStreetMap Overpass API - live query, `landuse=quarry`, Lualaba/Haut-Katanga bounding box
+- OpenStreetMap Nominatim - place-name geocoding used to seed and verify the query area
+
+**Ownership attribution (15 confidently-labeled concessions out of 145):**
+- CMOC Group (en.cmoc.com) - TFM, Kisanfu ownership shares
+- Zijin Mining (zijinmining.com) - COMMUS, Kamoa-Kakula stakes
+- Wikipedia - Tenke Fungurume Mine, Deziwa mine, Ruashi mine, Etoile mine, Kamatanda, Shinkolobwe, Tilwezembe
+- Global Witness - "The Deal of Deziwa"
+- Mongabay - COMMUS/Zijin community displacement reporting
+- Ivanhoe Mines (ivanhoemines.com) - Kamoa-Kakula Complex ownership structure
+- mindat.org, portergeo.com.au - TFM sub-pit geological groupings (Fungurume-area pits not individually named in the primary technical report)
+- TFM 2014 NI 43-101 Technical Report (minedocs.com) - named TFM deposits/pits
+- Glencore (glencore.com) - Mutanda Mining ownership
+- landmatrix.org - Kansuki/Mutanda merger history
+- Afrikarabia - Kakanda/ERG (Boss Mining SARL) operational history
+- SMM / MarketScreener - Chengtun Mining's acquisition of the Kalongwe stake (via Nzuri Copper)
+- Business & Human Rights Resource Centre - Ruashi/Jinchuan
+- Virtus Minerals (virtusminerals.com), Semafor - the March 2026 Chemaf-to-Virtus control transfer at L'Etoile du Congo
+- Pengxin International (pengxinzy.com.cn) - Shituru Mining Corporation
+
+**Test:** `libpysal` (KNN spatial weights) + `esda` (Join Count statistic, permutation test). Full result, including a sensitivity check with the Kamoa-Kakula joint venture coded both ways, is in `data/spatial_clustering_test.json`.
+
+**Explicitly unresolved, not guessed:** 13 named sites (Kababankola Pit, Kalabi, Kasompi, Katonto Hill, Likasi Mine, Ludjiba, M'sesa, Mofya Quarry, Mofya II Quarry, Shamitumba, Shamitumba/Kabolela, TONTO, stockage de HYDRO) had no reliable operator source found and are excluded from the test rather than assigned a guessed value. 111 of the 171 raw OSM polygons carry no name at all and are geometry only.

@@ -1,0 +1,72 @@
+{
+  "description": "Spatial statistics test: do Chinese-linked mining concessions cluster geographically within the Lualaba/Haut-Katanga copper-cobalt belt, or are they interleaved with non-Chinese operators?",
+  "verification_status": "✅ Confirmed (test rerun with sensitivity check; ownership sources listed per concession, ambiguous cases marked unknown rather than guessed)",
+  "data_source": {
+    "geometry": "OpenStreetMap Overpass API, landuse=quarry, live query of the Lualaba/Haut-Katanga bounding box",
+    "raw_polygons_found": 171,
+    "note": "OSM tags individual pits, not concession boundaries. TFM alone (a single 1,600 sq km concession) is split across 23 separate OSM polygons (Tenke Pit, Kwatebala Mine, Mwadinkomba East/West Mine, Shimbidi Pit, and 18 others). All same-concession sub-pits were dissolved into one spatial unit before testing, to avoid counting one concession's internal pit subdivisions as if they were neighboring, independent mines.",
+    "dissolved_units": 145
+  },
+  "ownership_attribution": {
+    "method": "Web research per named site: company annual reports/investor pages, Wikipedia, Mongabay, Global Witness, mindat.org, portergeo.com.au, the TFM 2014 NI 43-101 technical report, Reuters/Mining.com/Afrikarabia news coverage. Unresolved names are marked unknown rather than inferred from proximity alone.",
+    "named_sites_researched": 59,
+    "confidently_attributed": 15,
+    "china_linked": [
+      {"unit": "TFM", "operator": "CMOC (China), 80% / Gecamines 20%", "confidence": "high"},
+      {"unit": "Kisanfu", "operator": "CMOC + CATL (China), 95% combined / Gecamines 5%", "confidence": "high"},
+      {"unit": "Deziwa", "operator": "CNMC (China), 51% / Gecamines 49% (Somidez JV)", "confidence": "high"},
+      {"unit": "COMMUS", "operator": "Zijin Mining (China), 67-72% / Gecamines", "confidence": "high"},
+      {"unit": "Kalongwe", "operator": "Chengtun Mining (China), 85%", "confidence": "high"},
+      {"unit": "Ruashi", "operator": "Jinchuan Group (China), 75% / Gecamines 25%", "confidence": "high"},
+      {"unit": "Shituru", "operator": "Pengxin International (China), 72.5% mining rights", "confidence": "medium - sources conflict on scope with the adjacent Gecamines-operated smelter"}
+    ],
+    "joint_venture": [
+      {"unit": "Kamoa-Kakula", "operator": "Ivanhoe Mines (Canada) 39.6% + Zijin Mining (China) 39.6% + DRC govt 20%", "confidence": "high"}
+    ],
+    "non_china": [
+      {"unit": "Mutanda", "operator": "Glencore (Switzerland), 95% (Mutanda Mining/MUMI)", "confidence": "high"},
+      {"unit": "Kansuki", "operator": "Glencore (Switzerland), merged into MUMI in 2013", "confidence": "medium"},
+      {"unit": "Tilwezembe", "operator": "Glencore (Switzerland), via Katanga Mining, formally shuttered", "confidence": "high"},
+      {"unit": "Kakanda-ERG", "operator": "Eurasian Resources Group (Kazakhstan), via Boss Mining SARL", "confidence": "medium"},
+      {"unit": "Kamatanda", "operator": "Gecamines (DRC state)", "confidence": "high"},
+      {"unit": "Shinkolobwe", "operator": "Gecamines (DRC state), formally closed 2004, extensive artisanal activity", "confidence": "high"},
+      {"unit": "Etoile", "operator": "Chemaf / Virtus Minerals (US), control transferred March 2026 after a blocked Chinese (Norinco) bid", "confidence": "medium"}
+    ],
+    "excluded_from_test": {
+      "unresolved_after_research": 13,
+      "unresolved_names": ["Kababankola Pit", "Kalabi", "Kasompi Mine", "Katonto Hill Mine", "Likasi Mine", "Ludjiba Mine", "M'sesa Mine", "Mofya Quarry", "Mofya II Quarry", "Shamitumba", "Shamitumba/Kabolela Mine", "TONTO", "stockage de HYDRO"],
+      "different_commodity": {"unit": "Kakontwe Limestone Quarry", "operator": "West China Cement (China)", "reason": "cement, not copper/cobalt - excluded from the belt test though ownership is documented"},
+      "artisanal_no_corporate_owner": {"unit": "Mines individuelles de Kamilombe", "operator": "CMDS artisanal cooperative on an inactive Gecamines concession"},
+      "not_a_distinct_concession": ["G E C A M I N E S (facility label)", "Shinkolobwe Signal (survey marker)", "Stockage (generic storage tag)", "mine (unlabeled generic tag)"],
+      "unlabeled_in_osm": 111
+    },
+    "flagged_naming_collisions": "Shamitumba and Ludjiba: geological references (mindat.org) place both near Shinkolobwe (Haut-Katanga), not near Tenke Fungurume (Lualaba), despite falling inside this dataset's search bounding box. Left unattributed rather than guessed."
+  },
+  "test": {
+    "method": "libpysal (KNN spatial weights, k=3) + esda (Join_Counts, 999 permutations), run on the 15 confidently-attributed units only",
+    "primary_result": {
+      "coding": "joint venture (Kamoa-Kakula) counted as China-linked",
+      "n": 15,
+      "china_linked_n": 8,
+      "non_china_n": 7,
+      "observed_BB": 4.5,
+      "expected_BB_under_randomness": 6.029,
+      "p_value": 0.955
+    },
+    "sensitivity_check": {
+      "coding": "joint venture excluded entirely",
+      "n": 14,
+      "china_linked_n": 7,
+      "non_china_n": 7,
+      "observed_BB": 3.0,
+      "expected_BB_under_randomness": 4.814,
+      "p_value": 0.983
+    },
+    "interpretation": "No detectable spatial clustering of Chinese-linked concessions relative to the broader mining landscape - if anything, observed same-type neighbor pairs run below the random-chance expectation in both codings. Each of the 7-8 China-linked units' nearest neighbors include at least one non-Chinese-linked operator (Glencore, ERG, Gecamines, or the US-controlled Etoile mine) - there is no geographically distinct 'Chinese zone' within the belt.",
+    "caveat": "Only 15 of 145 mapped concessions in this belt have a confirmed operator in this dataset - low statistical power given the small labeled sample, and the test describes the well-documented majors, not the full mining landscape (111 of 171 raw OSM polygons carry no name at all)."
+  },
+  "reproducibility": {
+    "tools": ["geopandas", "libpysal 4.15.0", "esda 2.10.0"],
+    "note": "Weights built on projected coordinates (EPSG:32735, UTM 35S) over the centroids of the 15 dissolved, confidently-labeled concession polygons."
+  }
+}
